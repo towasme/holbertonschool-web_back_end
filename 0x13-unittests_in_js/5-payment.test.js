@@ -8,16 +8,6 @@ describe('sendPaymentRequestToApi', () => {
   let spy;
 
   beforeEach(() => {
-    spy = sinconst mocha = require('mocha');
-const { expect } = require('chai');
-const sinon = require('sinon');
-
-const sendPaymentRequestToApi = require('./5-payment');
-
-describe('sendPaymentRequestToApi', () => {
-  let spy;
-
-  beforeEach(() => {
     spy = sinon.spy(console, 'log');
   });
 

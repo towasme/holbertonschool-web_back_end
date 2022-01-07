@@ -21,29 +21,6 @@ describe('calculateNumber', () => {
       assert.strictEqual(calculateNumber(SUM, 1, 4.5), 6);
       assert.strictEqual(calculateNumber(SUM, 1.4, 4.5), 6);
       assert.strictEqual(calculateNumber(SUM, 8, -8.2), 0);
-      assert.stconst assert = require('assert');
-const mocha = require('mocha');
-
-const calculateNumber = require('./1-calcul');
-
-const SUM = 'SUM';
-const SUBTRACT = 'SUBTRACT';
-const DIVIDE = 'DIVIDE';
-const INVALID = 'INVALID';
-
-describe('calculateNumber', () => {
-  describe('type SUM', () => {
-    it('should return sum of integers', () => {
-      assert.strictEqual(calculateNumber('SUM', 1, 3), 4);
-      assert.strictEqual(calculateNumber(SUM, 2, -2), 0);
-      assert.strictEqual(calculateNumber(SUM, 1, -4), -3);
-    });
-
-    it('should return sum of rounded floats', () => {
-      assert.strictEqual(calculateNumber(SUM, 1.4, 5), 6);
-      assert.strictEqual(calculateNumber(SUM, 1, 4.5), 6);
-      assert.strictEqual(calculateNumber(SUM, 1.4, 4.5), 6);
-      assert.strictEqual(calculateNumber(SUM, 8, -8.2), 0);
       assert.strictEqual(calculateNumber(SUM, 7.8, -8), 0);
       assert.strictEqual(calculateNumber(SUM, 7.8, -8.2), 0);
       assert.strictEqual(calculateNumber(SUM, 3, -5.2), -2);

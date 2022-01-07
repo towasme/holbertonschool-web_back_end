@@ -1,4 +1,3 @@
-node_modules
 module.exports = function calculateNumber(a, b = 0) {
   const aNum = Number(a);
   const bNum = Number(b);

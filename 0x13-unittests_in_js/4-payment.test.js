@@ -6,14 +6,6 @@ const utils = require('./utils');
 const sendPaymentRequestToApi = require('./3-payment');
 const { spy } = require('sinon');
 
-describe('sendconst mocha = require('mocha');
-const { expect, assert } = require('chai');
-const sinon = require('sinon');
-
-const utils = require('./utils');
-const sendPaymentRequestToApi = require('./3-payment');
-const { spy } = require('sinon');
-
 describe('sendPaymentRequestToApi', () => {
   it('should call calculateNumber', () => {
     const stub = sinon.stub(utils, 'calculateNumber');
